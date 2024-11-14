@@ -3,6 +3,14 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            /* 设置地图容器的大小 */
+            #clustrmap-container {
+                width: 300px;  /* 设置宽度 */
+                height: 200px; /* 设置高度 */
+                overflow: hidden; /* 隐藏超出部分 */
+            }
+        </style>
         <title> Home </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
@@ -137,4 +145,7 @@
     </body>
 
 </html>
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RFEtL_R3VZAr8Igz_uZpgTQdy9Y3R1BM2cHl2TCpBwM&cl=ffffff&w=a"></script>
+<div id="clustrmap-container">
+    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=RFEtL_R3VZAr8Igz_uZpgTQdy9Y3R1BM2cHl2TCpBwM&cl=ffffff&w=a"></script>
+</div>
+    
