@@ -4,14 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
          <style>
-        /* 设置页面主体为 Flexbox */
-        /* 设置地图容器的大小 */
-        #clustrmap-container {
-            width: 300px;  /* 设置宽度 */
-            height: 200px; /* 设置高度 */
-            overflow: hidden; /* 隐藏超出部分 */
-        }
-    </style>
+          .map-container {
+              margin: 0 auto; /* 水平居中 */
+          }
+          
+      </style>
         <title> Home </title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     </head>
@@ -140,7 +137,11 @@
 
         
 
-
+ <div class="map-container">
+      <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=oMV34JLFA3Jp3H41-As6Lgg-0IQPFESA6TJlIwAjQWs'></script>
+      <br>
+  </div>
+            
             
       
     </body>
